@@ -11,7 +11,7 @@ One of the main problems in machine learning is achieving good generalization on
 
 This is a very simple example of a learned decision boundary for a binary classification problem with high noise and overlap between classes. This is learned by a neural network with 2 hidden layers (128, 128). The network's parameters are enough to capture the undelying decision function but without having too much freedom overfitting to the high noise of the points.  
 
-One could argue that once we have this learned function produced by a "complex" model we can just use it to train again another, simpler model to reproduce it. We basically want our simple model to "overfit" this function, since we know it has generalizes well.
+One could argue that once we have this learned function produced by a "complex" model we can just use it to train again another, simpler model to reproduce it. We basically want our simple model to "overfit" this function, since we know it generalizes well.
 
 We picked a decision tree as our simple model.  
 - To the left, we trained a clasification tree using the original hard labels (0/1) and let it grow indefinitely and overfit.  
