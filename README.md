@@ -47,6 +47,7 @@ We apply the above ideas on the MNIST dataset. The "teacher" model that will be 
     <figcaption><i>A ridiculous visualization of the knowledge distillation method</i></figcaption>
 </figure>
 
+<br>
 <table>
 <th>Model</th>
 <th>Accuracy</th>
