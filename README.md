@@ -48,6 +48,7 @@ We apply the above ideas on the MNIST dataset. The "teacher" model that will be 
 </figure>
 
 <br>
+<br>
 <table>
 <th>Model</th>
 <th>Accuracy</th>
