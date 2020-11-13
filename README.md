@@ -1,6 +1,12 @@
 # Knowledge Distillation
 Knowledge Distillation describes a general framework of transfering the knowledge of a large and complex model into a smaller and simpler one. The main purpose to do this is to allow for faster inference times (e.g. in a smartphone) without significantly compromising performance (accuracy, square error, etc)
 
+Code based on the paper:
+> Distilling the Knowledge in a Neural Network  
+Geoffrey Hinton, Oriol Vinyals, Jeff Dean, NIPS 2014 Deep Learning Workshop  
+[\[pdf\]](https://arxiv.org/pdf/1503.02531.pdf)
+
+
 ## Soft labels are regularizers
 One of the main problems in machine learning is achieving good generalization on unseen data. And one requirement for this is to have a model with low variance in order to avoid overfit and produce smooth decision functions (classification) or predictions (regression). That's why it's common to use complex ensemble models consisting of multiple learners that are combined to produce the final prediction (boosting, bagging). Or to apply regularization techniques such as dropout. But these models tend to need extra memory and computation time not only during training but evaluation phase too.
 
