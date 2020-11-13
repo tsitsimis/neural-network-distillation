@@ -2,5 +2,5 @@ tensorflow
 matplotlib
 scikit-learn
 jupyter
-tensorflow-datasets
-scikit-optimize
+pandas
+xgboost
