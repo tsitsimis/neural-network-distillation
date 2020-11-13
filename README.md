@@ -15,7 +15,7 @@ One could argue that once we have this learned function produced by a "complex" 
 
 We picked a decision tree as our simple model.  
 - To the left, we trained a clasification tree using the original hard labels (0/1) and let it grow indefinitely and overfit.  
-- To the right, we trained a regression tree (since classification trees can't be trained with soft targets) but using as labels the predictions of the neural network. Again, no regularization (pruning) was applied.
+- To the right, we trained a regression tree (since classification trees can't be trained with soft targets) but using as labels the class probabilities of the neural network. Again, no regularization (pruning) was applied.
 
 <table>
 <tr>
